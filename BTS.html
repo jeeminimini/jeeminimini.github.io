@@ -1,0 +1,381 @@
+<!DOCTYPE html> <!--현재 문서가 HTML언어로 작성된 웹 문서라는 의미 -->
+<html lang="ko"> <!--<html>태그는 웹 문서의 시작을 알리는 태그이다. 이때 lang라는 속성을 사용해 사용할 언어를 지정한다. -->
+<head> <!--문서 정보를 지정하는 <head> 부분-->
+    <title> BTS </title> <!--태그: 브라우저의 제목 표시줄에 표시되는 내용-->
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css"><!--나눔스퀘어-->
+    <style>
+     @font-face { /*title 폰트*/
+    font-family: 'MaruBuri-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/MaruBuri-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    }
+       
+       
+        header {
+            background-color:rgb(237, 237, 238);
+            margin: 0px;
+            height: 800px;
+            width: 100%;
+           padding: 0px;
+           
+        }
+        
+     
+        #pic{
+           text-align: left;
+           margin-left: 100px;
+           margin-right: 100px;
+           float: left;
+        }
+        #picc{
+           text-align: left;
+           margin-left: 100px;
+           margin-right: 100px;
+           transform: translate(-150px,250px);
+            
+          
+        }
+
+        #title1{
+            font-family: 'MaruBuri-Regular';
+            font-size: 60px;
+            padding-top: 0px;
+            transform: translate(0px,200px);
+            
+        
+        }
+        #title2{
+            font-family: 'MaruBuri-Regular';
+            font-size: 90px;
+            text-align: right;
+            float: left;
+            transform: translate(0px,200px);
+            letter-spacing:0.1em;
+        }
+        #title3{
+            font-family: 'MaruBuri-Regular';
+            font-size: 60px;
+            transform: translate(0px,224px);
+        
+        }
+        .line1{
+        background-color: rgb(0, 0, 0);
+        width: 90px;
+        height: 2px; 
+        text-align: center;
+        margin: 0 auto ;
+        margin-top: 100px;
+  
+        }
+        .line2{
+        background-color: rgb(0, 0, 0);
+        width: 90px;
+        height: 2px; 
+        text-align: center;
+        margin: 0 auto ;
+        margin-top: 410px;
+  
+        }
+        .article1{
+        font-family: 'MaruBuri-Regular';
+        letter-spacing:0.05em;
+        color: black;
+        text-align:left;
+        font-size:40px;
+        padding:2% 0% 0% 0%;
+        text-align: center;
+        padding-top: 0px;
+        margin-bottom: 30px;
+        }
+        .font1{
+        font-family: 'NanumSquare', sans-serif ;
+        color: black;
+        font-size:20px;
+        padding : 5px 0px 5px 0px;
+        text-align: center;
+        }
+        .font2{
+        font-family: 'MaruBuri-Regular';
+        color: black;
+        font-size:30px;
+        margin-top:35px;
+        margin-bottom: 20px;
+        text-align: center;
+       }
+       .font3{
+        font-family: 'NanumSquare', sans-serif ;
+        color: black;
+        font-size:18px;
+        margin-top :10px;
+        text-align: center;
+        
+       }
+       .font4{
+        font-family: 'NanumSquare', sans-serif ;
+        color: rgb(32, 32, 32);
+        font-size:14px;
+        margin-top :10px;
+        text-align: left;
+        
+       }
+       .font5{
+        font-family: 'NanumSquare', sans-serif ;
+        color: black;
+        font-size:18px;
+        margin-top :10px;
+        padding-left:10px;
+        text-align: left;
+        
+       }
+       .font6{
+        font-family: 'MaruBuri-Regular';
+        color: black;
+        font-size:30px;
+        margin-top:35px;
+        margin-bottom: 10px;
+        text-align: left;
+       }
+       .introduce{
+           width:100%;
+           margin-bottom:340px;
+           text-align: center;
+          
+       }
+
+       .tool{
+           width:100%;
+           height: 800px;
+           margin-bottom: 500px;
+           background-color:cornflowerblue
+       }
+
+       ul{
+           display:inline-block;
+           vertical-align:top;
+           width:14.3%;
+           
+       }
+        .box{
+            position: absolute;
+            display: none;
+            text-align: center;
+            margin: 0;
+            height: 300px;
+            width: 206px;
+            background-color: rgb(255, 255, 255,0.7);
+           
+        }
+        .profile {
+            position: absolute;
+        }
+        .profile:hover + .box {
+            display: block;
+        }
+        .pic2{
+            float:left;
+            text-align: center;
+            padding: 25px;
+        } 
+        .song{
+            border: 1px solid black;
+            height: 250px;
+            width:800px;
+            text-align: center;
+            margin: 40px auto;
+            padding: 10px auto;
+            
+        }
+        .song2{
+            border: 1px solid black;
+            height: 450px;
+            width:800px;
+            text-align: center;
+            margin: 40px auto;
+            
+            
+        }
+       
+        footer{
+            font-size:15px;
+            text-align: right;
+        }       
+    </style>
+</head>
+<body>
+    <header>
+       <div id="pic">
+            <img src="https://user-images.githubusercontent.com/74500793/100649358-ae210a80-3385-11eb-8b62-fb794ed8dbf1.png" alt="방탄 단체" height="800px"> 
+        </div>  
+        <div id="title1">Do you</div> 
+        <div id="title1">know </div> 
+        <div id="title2">BTS</div> 
+        <div id="title3"> ? </div>
+        <div id="picc">
+            <img src="https://user-images.githubusercontent.com/74500793/100717426-5c1bcb80-33fd-11eb-9310-e437ee90e48c.png" alt="방탄 로고" height="200px">
+         </div>
+    </header>
+    <article>
+        <div class="line1"></div>
+        <div class="article1">BTS</div>
+        <div class="font1"> BTS는 대한민국의 7인조 남자 아이돌이다.</div>
+        <div class="font1">2013년 데뷔하여 2020년 현재 해외 음악 시장까지 진출한 대표 K-POP 그룹이다. </div>
+        <br>
+        <div class="font1">BTS는 방탄소년단의 영여 약자로, 총알을 막아낸다라는 뜻을 가지고 있다. </div>
+        <div class="font1">10대들이 갖는 편견과 억압을 막아내겠다는 뜻을 담아냈다.</div>
+        <br>
+    </article>
+    <article>
+        <div class="line1"></div>
+        <div class="article1">PROFILE</div>
+        <dic class="tool">
+        <div class="introduce">
+            <ul>
+                <div class="profile">
+                    <img src="https://user-images.githubusercontent.com/74500793/100653171-57b6ca80-338b-11eb-9e8f-db5b97471b91.png" alt="진" height="300">
+                </div>
+                <div class="box">
+                    <div class="font2">JIN</div>
+                    <div class="font3">김석진</div>
+                    <div class="font3">1992.12.4</div>
+                    <div class="font3">대한민국</div>
+                    <div class="font3">179cm 60kg</div>
+                    <div class="font3">O형</div>
+                    <div class="font3">서브보컬</div>
+                </div>
+            </ul>
+            <ul>
+                 <div class="profile">
+                    <img src="https://user-images.githubusercontent.com/74500793/100653127-47065480-338b-11eb-9f2a-dd4378af3c1c.png" alt="슈가" height="300px">
+                </div>
+                <div class="box">
+                    <div class="font2">SUGA</div>
+                    <div class="font3">민윤기</div>
+                    <div class="font3">1993.3.9</div>
+                    <div class="font3">대한민국</div>
+                    <div class="font3">174cm 59kg</div>
+                    <div class="font3">O형</div>
+                    <div class="font3">리드래퍼</div>
+                </div> 
+            </ul>
+            <ul>
+                <div class="profile">
+                    <img src="https://user-images.githubusercontent.com/74500793/100653078-3524b180-338b-11eb-981e-443d9318bc8c.png" alt="제이홉" height="300px">
+               </div>
+                <div class="box">
+                   <div class="font2">J-HOPE</div>
+                   <div class="font3">정호석</div>
+                   <div class="font3">1994.2.18</div>
+                   <div class="font3">대한민국</div>
+                   <div class="font3">177cm 65kg</div>
+                   <div class="font3">A형</div>
+                   <div class="font3">서브래퍼, 메인댄서</div>
+               </div> 
+            </ul>
+        </div>
+        <div class="introduce">
+            <ul>
+                <div class="profile">
+                    <img src="https://user-images.githubusercontent.com/74500793/100653210-68ffd700-338b-11eb-8e54-c7c8e3a91629.png" alt="알엠" height="300px">
+                </div>
+                <div class="box">
+                    <div class="font2">RM</div>
+                    <div class="font3">김남준</div>
+                    <div class="font3">1994.9.12</div>
+                    <div class="font3">대한민국</div>
+                    <div class="font3">181cm 67kg</div>
+                    <div class="font3">A형</div>
+                    <div class="font3">리더, 메인래퍼</div>
+                </div> 
+            </ul>
+            <ul>
+                <div class="profile">
+                    <img src="https://user-images.githubusercontent.com/74500793/100653274-7b7a1080-338b-11eb-8489-a5cac8aeff60.png" alt="지민" height="300px">
+                </div>
+                <div class="box">
+                    <div class="font2">JIMIN</div>
+                    <div class="font3">박지민</div>
+                    <div class="font3">1995.10.13</div>
+                    <div class="font3">대한민국</div>
+                    <div class="font3">173cm 60kg</div>
+                    <div class="font3">A형</div>
+                    <div class="font3">리드보컬, 메인댄서</div>
+                </div> 
+            </ul>
+            <ul>
+                <div class="profile">
+                    <img src="https://user-images.githubusercontent.com/74500793/100652945-04dd1300-338b-11eb-9645-6fd54616b28f.png" alt="뷔" height="300px">
+                </div>
+                <div class="box">
+                    <div class="font2">V</div>
+                    <div class="font3">김태형</div>
+                    <div class="font3">1995.12.30</div>
+                    <div class="font3">대한민국</div>
+                    <div class="font3">178cm 63kg</div>
+                    <div class="font3">AB형</div>
+                    <div class="font3">서브보컬</div>
+                </div> 
+            </ul>
+            <ul>
+                <div class="profile">
+                    <img src="https://user-images.githubusercontent.com/74500793/100663222-5391a980-3399-11eb-8b12-1051cff53897.png" alt="정국" height="300px">
+            </div>
+                <div class="box">
+                    <div class="font2">JUNGKOOK</div>
+                    <div class="font3">전정국</div>
+                    <div class="font3">1997.9.1</div>
+                    <div class="font3">대한민국</div>
+                    <div class="font3">178cm 66kg</div>
+                    <div class="font3">A형</div>
+                    <div class="font3">메인보컬, 리드댄서</div>
+                </div> 
+            </ul>
+       
+        
+        </div>
+    </tool>
+    </article>
+    <article>
+        <div class="line2"></div>
+        <div class="article1">SONG</div>
+        <div class="song">
+            <div class="pic2">
+            <img src="https://user-images.githubusercontent.com/74500793/100684254-50101980-33bd-11eb-80a1-fbb8115addc2.png" alt="다이너마이트" height="200px">
+            </div>
+            <div class="font6">Dynamite(DayTime Verison)</div>
+            <div class="font4">방탄소년단<br>2020.8.21</div>
+            <div class="font5">Dynamite는 밝고 경쾌한 분위기의 디스코 팝(Disco Pop) 장르로, 
+                <br>팬들을 위한 희망의 메시지를 담았다. 
+                <br>이 곡을 통해 BTS는 한국 가수 최초로 
+                <br>미국 빌보드 메인 '싱글차트 핫100'에 1위에 올랐다. 
+            </div>
+        </div>
+        <div class="song">
+            <div class="pic2">
+            <img src="https://user-images.githubusercontent.com/74500793/100685829-77b4b100-33c0-11eb-94ee-5942a2084b66.png" alt="life goeds on" height="200px">
+            </div>
+            <div class="font6">BE</div>
+            <div class="font4"> 방탄소년단 <br> 2020.11.20</div>
+            <div class="font5"> 방탄소년단의 새로운 이야기 BE (Deluxe Edition)는
+                <br>'코로나19 시대'를 사는 모두에게 방탄소년단이 전하는 위로이다.
+                <br>BE앨범의 타이틀곡 'Life Goes On'은 
+                <br>빌보드 싱글차트 핫100에 1위에 올랐다.
+                <br>이 차트에서 한국어로 된 노래가 1위에 등극된 것은 처음이다.
+            </div>
+        </div>
+        <div class="song2">
+            <div class="font2">Life goes on MV</div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/-5q5mZbe3V8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+  
+    </article>        
+        
+    <footer>
+        <h6>만든이 19011755 이지민
+            이메일 jiminn821@naver.com
+        </h6>
+    </footer>
+   
+</body>
+</html>
